@@ -1,0 +1,61 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+button{
+    padding: 0 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 55%;
+    background-color: rgb(255, 255, 255);
+    margin: 15px 100px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 0 10px 0 rgb(228, 226, 226);
+    font-size: 15px;
+}
+button img{
+    margin: 0 10px;
+height: 30px;
+width: 30px;
+}
+#buttonSearchImg
+{
+    padding-left: 550px;
+}
+
+/* heading end  */
+
+section{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+section div{display: flex;
+    flex-direction: column;
+
+}
+section div p{
+    padding: 0;
+    margin: 0;
+    color: rgb(97, 97, 97);
+}
+section div img{
+    height: 22vh;
+    width: 37vh;
+    border-radius: 10px;
+}
+section small img{
+    height: 25px;
+    width: 25px;
+}
+small{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 5px;
+    padding: 0 5px;
+    font-style: 12px;
+    
+}
